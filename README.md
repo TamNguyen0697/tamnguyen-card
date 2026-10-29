@@ -1,4 +1,5 @@
 # Tâm Nguyễn — Personal Card & Portfolio
+n**Website:** https://tamnguyen.mooo.com (GitHub Pages, repo `TamNguyen0697/tamnguyen-card`, tên miền miễn phí từ FreeDNS — bản ghi A `tamnguyen.mooo.com` → `185.199.108.153`).
 
 Danh thiếp điện tử kết hợp portfolio tối giản cho **Tâm Nguyễn — Live Sound Engineer**.
 Website tĩnh viết bằng HTML/CSS/JS thuần: không cần build, không backend, không API key, không tracking.

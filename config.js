@@ -36,7 +36,7 @@ window.SITE_CONFIG = {
 
     /* Địa chỉ website sau khi triển khai (ghi vào danh bạ .vcf).
        Để trống => tự dùng địa chỉ trang đang mở. */
-    siteUrl: ""
+    siteUrl: "https://tamnguyen.mooo.com/"
   },
 
   /* ---------------- Liên hệ & mạng xã hội ---------------- */
