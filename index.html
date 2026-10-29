@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Tâm Nguyễn — Live Sound Engineer | Professional Sound Solutions</title>
+  <meta name="description" content="Tâm Nguyễn — Live Sound Engineer. Giải pháp âm thanh chuyên nghiệp cho biểu diễn trực tiếp, hệ thống không dây và ghi âm đa kênh.">
+  <meta name="author" content="Tâm Nguyễn">
+  <meta name="theme-color" content="#101318">
+  <meta name="color-scheme" content="dark">
+  <meta name="format-detection" content="telephone=no">
+
+  <!-- Open Graph (Facebook, Zalo, Messenger...).
+       Sau khi triển khai, nên đổi og:image / twitter:image thành địa chỉ đầy đủ,
+       ví dụ https://ten-cua-ban.pages.dev/assets/og-image.jpg, và thêm
+       <meta property="og:url" content="https://ten-cua-ban.pages.dev/"> (xem README). -->
+  <meta property="og:type" content="profile">
+  <meta property="og:locale" content="vi_VN">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:site_name" content="Tâm Nguyễn — Professional Sound Solutions">
+  <meta property="og:title" content="Tâm Nguyễn — Live Sound Engineer">
+  <meta property="og:description" content="Giải pháp âm thanh chuyên nghiệp cho biểu diễn trực tiếp, hệ thống không dây và ghi âm đa kênh.">
+  <meta property="og:image" content="assets/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Tâm Nguyễn — Live Sound Engineer">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Tâm Nguyễn — Live Sound Engineer">
+  <meta name="twitter:description" content="Professional audio solutions for live events, wireless systems and multitrack recording.">
+  <meta name="twitter:image" content="assets/og-image.jpg">
+
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="assets/favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main" data-i18n="skip">Bỏ qua đến nội dung chính</a>
+
+  <header class="site-header" id="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#top" data-i18n-aria="home_label" aria-label="Về đầu trang">
+        <span class="monogram" aria-hidden="true">
+          <svg viewBox="0 0 64 64" focusable="false"><path d="M13 21h17M21.5 21v22M36 43V21l15 22V21"/></svg>
+        </span>
+        <span class="brand-name" data-cfg="name">Tâm Nguyễn</span>
+      </a>
+      <div class="lang-switch" role="group" data-i18n-aria="lang_label" aria-label="Chọn ngôn ngữ">
+        <button type="button" data-lang="vi" lang="vi" aria-pressed="true">VI</button>
+        <button type="button" data-lang="en" lang="en" aria-pressed="false">EN</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <!-- PROFILE -->
+    <section class="hero container" id="top" aria-labelledby="hero-name">
+      <div class="hero-media reveal">
+        <div class="avatar-frame">
+          <img id="avatar" src="assets/avatar.jpg" alt="Ảnh đại diện của Tâm Nguyễn" width="800" height="1000" decoding="async" fetchpriority="high">
+        </div>
+      </div>
+      <div class="hero-body reveal">
+        <p class="eyebrow">
+          <span class="meter" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span>
+          <span data-cfg="title">Live Sound Engineer</span>
+        </p>
+        <h1 id="hero-name" data-cfg="name">Tâm Nguyễn</h1>
+        <p class="tagline" data-cfg="brand">Professional Sound Solutions</p>
+        <p class="lead" data-i18n="hero_desc">Giải pháp âm thanh chuyên nghiệp cho biểu diễn trực tiếp, hệ thống không dây và ghi âm đa kênh.</p>
+        <div class="hero-actions" id="hero-actions">
+          <button type="button" class="btn btn-primary" data-action="save-contact" data-i18n-aria="save_contact_aria">
+            <span data-icon="userPlus"></span><span data-i18n="save_contact">Lưu danh bạ</span>
+          </button>
+          <a class="btn btn-ghost" data-role="call" href="tel:+84366329324" data-i18n-aria="call_aria">
+            <span data-icon="phone"></span><span><span data-i18n="call">Gọi</span> <span class="nowrap" data-cfg="phoneDisplay">0366 329 324</span></span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section container reveal" id="contact" aria-labelledby="contact-title">
+      <h2 class="section-title" id="contact-title" data-i18n="contact_heading">Liên hệ</h2>
+      <ul class="contact-list" id="contact-list" role="list"></ul>
+    </section>
+
+    <div class="container split">
+      <!-- ABOUT -->
+      <section class="section reveal" id="about" aria-labelledby="about-title">
+        <h2 class="section-title" id="about-title" data-i18n="about_heading">Giới thiệu</h2>
+        <p class="about-text" data-i18n="about_body"></p>
+        <figure class="work-photo" id="work-photo" hidden>
+          <img id="work-photo-img" alt="" width="1600" height="1067" loading="lazy" decoding="async">
+          <figcaption id="work-photo-caption"></figcaption>
+        </figure>
+      </section>
+
+      <!-- EXPERTISE -->
+      <section class="section reveal" id="expertise" aria-labelledby="expertise-title">
+        <h2 class="section-title" id="expertise-title" data-i18n="expertise_heading">Chuyên môn</h2>
+        <ul class="expertise-grid" id="expertise-list" role="list"></ul>
+      </section>
+    </div>
+
+    <!-- PROJECTS: tự ẩn khi config.projects rỗng -->
+    <section class="section container reveal" id="projects" aria-labelledby="projects-title" hidden>
+      <h2 class="section-title" id="projects-title" data-i18n="projects_heading">Dự án tiêu biểu</h2>
+      <ul class="project-grid" id="project-list" role="list"></ul>
+    </section>
+
+    <!-- RESOURCES: mục phụ -->
+    <section class="container resources reveal" id="resources" aria-label="Resources" hidden>
+      <div id="resources-slot"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p><span data-cfg="name">Tâm Nguyễn</span> — <span data-cfg="brand">Professional Sound Solutions</span></p>
+      <p class="muted">© <span id="year">2026</span> <span data-cfg="name">Tâm Nguyễn</span>. <span data-i18n="footer_rights">Bảo lưu mọi quyền.</span></p>
+    </div>
+  </footer>
+
+  <!-- Thanh thao tác nhanh trên điện thoại (hiện khi cuộn qua phần hồ sơ) -->
+  <div class="quickbar" id="quickbar" inert>
+    <a class="btn btn-ghost" data-role="call" href="tel:+84366329324" data-i18n-aria="call_aria">
+      <span data-icon="phone"></span><span data-i18n="call">Gọi</span>
+    </a>
+    <button type="button" class="btn btn-primary" data-action="save-contact" data-i18n-aria="save_contact_aria">
+      <span data-icon="userPlus"></span><span data-i18n="save_contact">Lưu danh bạ</span>
+    </button>
+  </div>
+
+  <dialog class="dialog" id="resources-dialog" aria-labelledby="resources-dialog-title">
+    <div class="dialog-head">
+      <h2 id="resources-dialog-title" data-i18n="resources_dialog_title">Tài nguyên &amp; Tải về</h2>
+      <button type="button" class="icon-btn" data-action="close-dialog" data-i18n-aria="close" aria-label="Đóng">
+        <span data-icon="x"></span>
+      </button>
+    </div>
+    <p class="dialog-note" data-i18n="resources_dialog_note"></p>
+    <ul class="resource-list" id="resource-list" role="list"></ul>
+  </dialog>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <noscript><p class="noscript">Gọi: <a href="tel:+84366329324">0366 329 324</a></p></noscript>
+
+  <script src="config.js" defer></script>
+  <script src="script.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<!-- Ảnh đại diện TẠM THỜI (placeholder). Thay bằng ảnh thật: xem README. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000">
+  <rect width="800" height="1000" fill="#161A21"/>
+  <g fill="none" stroke="#FFFFFF" stroke-opacity=".05">
+    <path d="M0 250h800M0 500h800M0 750h800M200 0v1000M400 0v1000M600 0v1000"/>
+  </g>
+  <g fill="#D6A85D" fill-opacity=".16">
+    <rect x="262" y="700" width="14" height="70" rx="3"/>
+    <rect x="294" y="660" width="14" height="110" rx="3"/>
+    <rect x="326" y="690" width="14" height="80" rx="3"/>
+    <rect x="358" y="630" width="14" height="140" rx="3"/>
+    <rect x="390" y="610" width="14" height="160" rx="3"/>
+    <rect x="422" y="645" width="14" height="125" rx="3"/>
+    <rect x="454" y="675" width="14" height="95" rx="3"/>
+    <rect x="486" y="650" width="14" height="120" rx="3"/>
+    <rect x="518" y="705" width="14" height="65" rx="3"/>
+  </g>
+  <circle cx="400" cy="400" r="150" fill="none" stroke="#D6A85D" stroke-opacity=".35" stroke-width="2"/>
+  <path d="M300 345h88M344 345v118M418 463V345l78 118V345" fill="none" stroke="#D6A85D" stroke-width="16" stroke-linecap="square"/>
+</svg>
